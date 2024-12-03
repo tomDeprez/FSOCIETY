@@ -8,8 +8,8 @@ CREATE TABLE users (
 
 -- Ajout des utilisateurs (avec hachage des mots de passe)
 INSERT INTO users (username, password, role) VALUES
-('Hacker42', '$2y$10$z8K4EoA8PAgfO7.yEqUsouH7.bMBSsEdcxw3gJ46j2DRAKKp9/Qz2', 'admin'), -- Mot de passe : "admin_h42"
-('Admin', '$2y$10$T8JkaIQ3/sG.c6ATJhgV3uFe.VUUlIm3vjdgBXKbdFrIpb7b7RZ7O', 'admin'), -- Mot de passe : "admin_root"
+('Hacker42', '$2y$10$O3pO.dYSYOmMrKUHi2neN.kzA13dMlca6D9ieESxCjyBg6OZ6cnHO', 'admin'), -- Mot de passe : "admin_h42"
+('Admin', '$2y$10$EyGEinI02zX3F8weArtEf.fgwhsGlCmlB4U42sXWSY7NgeCrZJFty', 'admin'), -- Mot de passe : "admin_root"
 ('KevinMitnick', '$2y$10$XFTzUdS46vOpoyI2OLFxKuyrUWaUjQ/Nh9JbQikFbB9GSKiv9UkaG', 'user'), -- Mot de passe : "mitnick123"
 ('AdrianLamo', '$2y$10$MfR8IW6kBID.kF8syKPmReJl.lB7WqsDbYTkmAnPuVeYPOT52cX4O', 'user'), -- Mot de passe : "lamo1234"
 ('GaryMcKinnon', '$2y$10$UChlDzUQQRm1qUb6me0TOOOPjs9kxOoHc3LSZBNzohwROxBF1cJcW', 'user'), -- Mot de passe : "gary2002"
