@@ -11,7 +11,7 @@ if ($userAgent !== "fsociety") {
 ?>
 <?php
 session_start();
-
+//bonjour
 // Configuration de la base de données
 $host = 'localhost';
 $dbname = 'darkweb_users';
