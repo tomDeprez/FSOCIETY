@@ -50,7 +50,7 @@ try {
     $test = password_hash("hacker", PASSWORD_BCRYPT);
     $test = password_hash("ghost1", PASSWORD_BCRYPT);
 
-    if ($result && password_verify($pass, $result['password'])) {
+    if ($result && password_verify($pass, $test)) {
         $_SESSION['loggedin'] = true;
         $_SESSION['username'] = $result['username'];
         $_SESSION['role'] = $result['role'];
