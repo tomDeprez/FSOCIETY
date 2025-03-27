@@ -1,7 +1,7 @@
 <?php
 // Récupérer le User-Agent envoyé par le client
 $userAgent = $_SERVER['HTTP_USER_AGENT'];
-
+// test ici
 // Vérifier si le User-Agent correspond à "Fsociety"
 if ($userAgent !== "fsociety") {
     // Rediriger vers index.html si le User-Agent est incorrect
